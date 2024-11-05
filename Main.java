@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Main {
 
-  public static void main(String[] args) {
+  public static void Practice04To06(String[] args) {
     
     // 04_変数と値の取り扱い 簡単な計算
     // 文字列結合と数値計算結果の結合をして
@@ -28,11 +28,11 @@ public class Main {
     // 条件は名字の文字数が2文字以上の場合 かつ 名前の文字数が2文字以上の場合はtrue。
     // 条件がtrueの場合はその名前を表示する。
     // 条件がfalseの場合は条件に一致しませんでした。という文言を表示する。
-    String firstName = "mura";
-    String lastName = "osa";
+    String firstName2 = "mura";
+    String lastName2 = "osa";
 
-    if (firstName.length() > 2 && lastName.length() > 2) {
-      System.out.println(firstName + lastName);
+    if (firstName2.length() > 2 && lastName2.length() > 2) {
+      System.out.println(firstName2 + lastName2);
     }else
       System.out.println("条件に一致しませんでした。");
 
